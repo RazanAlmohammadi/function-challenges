@@ -7,7 +7,21 @@
 - Test Case: StringNumberProcessor("Hello", 100, 200, "World")
 - Expected Outcome: "Hello World; 300"
 
-## Challenge 2: User Profile Updater
+## Challenge 2: Guessing Game
+
+- Objective: Implement a number guessing game.
+- Description: The function generates a random number and prompts the user to guess it. It provides feedback and continues until the correct guess is made.
+- Execution: Uncomment GuessingGame() in Main to test.
+- Expected Outcome: The game continues with user input until the correct number is guessed.
+
+## Challenge 3: Simple Word Reversal
+
+- Objective: Reverse each word in a given sentence.
+- Description: The function takes a string and reverses each word in it. Words are separated by spaces, and punctuation remains attached to the word.
+- Test Case: ReverseWords("This is the original sentence!")
+- Expected Outcome: "sihT si eht lanigiro !ecnetnes"
+
+## Challenge 4: User Profile Updater
 
 - Objective: Write a function to update user profile details using the `ref` parameter modifier.
 
@@ -20,17 +34,3 @@ Test case:
 - UpdateEmail(ref email, "new.email@example.com") with `email = "old.email@example.com"` // Values after update: `"new.email@example.com"`
 - UpdateAge(ref age, -5) // Error: Age must be a positive integer
 - UpdateEmail(ref email, "invalid-email") // Error: Invalid email format
-
-## Challenge 3: Guessing Game
-
-- Objective: Implement a number guessing game.
-- Description: The function generates a random number and prompts the user to guess it. It provides feedback and continues until the correct guess is made.
-- Execution: Uncomment GuessingGame() in Main to test.
-- Expected Outcome: The game continues with user input until the correct number is guessed.
-
-## Challenge 4: Simple Word Reversal
-
-- Objective: Reverse each word in a given sentence.
-- Description: The function takes a string and reverses each word in it. Words are separated by spaces, and punctuation remains attached to the word.
-- Test Case: ReverseWords("This is the original sentence!")
-- Expected Outcome: "sihT si eht lanigiro !ecnetnes"
