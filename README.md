@@ -27,10 +27,7 @@
 
 - Description: The function should allow updating a user's profile details: Name, Age, and Email. For updating, the application will use `ref` parameters to modify the values directly. The application should handle updates and validation accordingly.
 
-Test case:
+- Test case
+  ![update user](./screenshot/Screenshot1.png)
 
-- UpdateName(ref name, "NewName")with `name = "John Doe"` // Values after update: `"NewName"`
-- UpdateAge(ref age, 30) with `age = 25` // Values after update: `30`
-- UpdateEmail(ref email, "new.email@example.com") with `email = "old.email@example.com"` // Values after update: `"new.email@example.com"`
-- UpdateAge(ref age, -5) // Error: Age must be a positive integer
-- UpdateEmail(ref email, "invalid-email") // Error: Invalid email format
+**DEADLINE: THURSDAY 29.08 5PM**
