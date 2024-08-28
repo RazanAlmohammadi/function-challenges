@@ -12,10 +12,10 @@ namespace FunctionChallenges
         {
              Console.WriteLine(StringNumProcessor.StringNumberProcessor("Hello", 100, 200, "World"));
             Console.WriteLine(StringNumProcessor.StringNumberProcessor("Razan", 50,"Mohammed",200, "Almohammadi"));
-            // Game.GuessingGame();
-            //string sentence = "This is the original sentence!";
-            //Console.WriteLine(sentence);
-            //Console.WriteLine(ReverseWord.ReverseWords(sentence));
+            Game.GuessingGame();
+            string sentence = "This is the original sentence!";
+            Console.WriteLine(sentence);
+            Console.WriteLine(ReverseWord.ReverseWords(sentence));
             string name = "John Doe";
             int age = 28;
             string email = "john@gmail.com";
