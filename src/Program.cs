@@ -12,7 +12,9 @@ namespace FunctionChallenges
         {
             Console.WriteLine(StringNumProcessor.StringNumberProcessor("Hello", 100, 200, "World"));
             Game.GuessingGame();
-
+            string sentence = "This is the original sentence!";
+            Console.WriteLine(sentence);
+            Console.WriteLine(ReverseWord.ReverseWords(sentence));
 
 
         }
