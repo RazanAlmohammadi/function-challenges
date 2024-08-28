@@ -7,11 +7,25 @@ namespace function_challenges
 {
     public class StringNumProcessor
     {
-       public static string StringNumberProcessor(string world, int number, int number2, string world2)
+        public static string StringNumberProcessor(params object[] inputs)
         {
-            string sum = Convert.ToString(number + number2);
-            return world + " " + world2 + "; " + sum;
+            string combinedText = "";
+            int totalSum = 0;
 
-        } 
+            foreach (var item in inputs)
+            {
+                if (item is string)
+                {
+                    combinedText += (string)item + " ";
+                }
+                else if (item is int)
+                {
+                    totalSum += (int)item;
+                }
+            }
+
+            combinedText = combinedText.Trim();
+            return combinedText + "; " + totalSum;
+        }
     }
 }
